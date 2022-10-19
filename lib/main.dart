@@ -34,9 +34,9 @@ class _HomeState extends State<Home> {
       body: PageView(
         controller: _pageController,
         children: [
-          Container(color: Color.fromARGB(255, 4, 227, 41)),
-          Container(color: Color.fromARGB(255, 250, 245, 0)),
           Container(color: Color.fromARGB(255, 0, 0, 0)),
+          Container(color: Color.fromARGB(255, 250, 245, 0)),
+          Container(color: Color.fromARGB(255, 208, 17, 17)),
           Container(color: Color.fromARGB(255, 250, 101, 64)),
         ],
         onPageChanged: (index) {
